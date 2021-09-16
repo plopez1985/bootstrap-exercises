@@ -1,0 +1,403 @@
+{
+    "config": {
+        "port": 3000,
+        "address": "https://orange-buzzard-n7hc9pe8.ws-us15.gitpod.io",
+        "editor": {
+            "mode": "preview",
+            "agent": "gitpod",
+            "version": "1.0.70"
+        },
+        "dirPath": "./.learn",
+        "configPath": "learn.json",
+        "outputPath": ".learn/dist",
+        "publicPath": "/preview",
+        "publicUrl": "https://3000-orange-buzzard-n7hc9pe8.ws-us15.gitpod.io",
+        "grading": "isolated",
+        "exercisesPath": "./exercises",
+        "webpackTemplate": null,
+        "disableGrading": false,
+        "actions": [
+            "build",
+            "test",
+            "reset"
+        ],
+        "entries": {
+            "html": "index.html",
+            "vanillajs": "index.js",
+            "react": "app.jsx",
+            "node": "app.js",
+            "python3": "app.py",
+            "java": "app.java"
+        },
+        "translations": []
+    },
+    "currentExercise": "00-Welcome",
+    "slug": "bootstrap-exercises",
+    "title": "Learn Bootstrap Tutorial",
+    "description": "A complete tutorial list of small targeted exercises that will show the most usefull things you need to learn about bootstrap",
+    "repository": "https://github.com/4GeeksAcademy/bootstrap-exercises-tutorial",
+    "language": "html",
+    "duration": 8,
+    "preview": "https://github.com/4GeeksAcademy/bootstrap-exercises-tutorial/blob/master/preview.png?raw=true",
+    "difficulty": "easy",
+    "skills": [
+        "bootstrap",
+        "html-layouts",
+        "css-styling"
+    ],
+    "technolgy": "bootstrap",
+    "video-solutions": false,
+    "graded": true,
+    "session": 568747786416361500,
+    "exercises": [
+        {
+            "position": 0,
+            "path": "exercises/00-Welcome",
+            "slug": "00-Welcome",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": null,
+            "entry": null,
+            "title": "00-Welcome",
+            "graded": false,
+            "files": [
+                {
+                    "path": "exercises/00-Welcome/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/00-Welcome/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        },
+        {
+            "position": 1,
+            "path": "exercises/01-Add-Bootstrap-To-Your-Website",
+            "slug": "01-Add-Bootstrap-To-Your-Website",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "html",
+            "entry": "exercises/01-Add-Bootstrap-To-Your-Website/index.html",
+            "title": "01-Add-Bootstrap-To-Your-Website",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/01-Add-Bootstrap-To-Your-Website/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/01-Add-Bootstrap-To-Your-Website/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/01-Add-Bootstrap-To-Your-Website/index.html",
+                    "name": "index.html",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/01-Add-Bootstrap-To-Your-Website/tests.js",
+                    "name": "tests.js",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        },
+        {
+            "position": 2,
+            "path": "exercises/02-Bootstrap-Skeleton",
+            "slug": "02-Bootstrap-Skeleton",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "html",
+            "entry": "exercises/02-Bootstrap-Skeleton/index.html",
+            "title": "02-Bootstrap-Skeleton",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/02-Bootstrap-Skeleton/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/02-Bootstrap-Skeleton/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/02-Bootstrap-Skeleton/index.html",
+                    "name": "index.html",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/02-Bootstrap-Skeleton/styles.css",
+                    "name": "styles.css",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/02-Bootstrap-Skeleton/tests.js",
+                    "name": "tests.js",
+                    "hidden": true
+                }
+            ],
+            "done": true
+        },
+        {
+            "position": 3,
+            "path": "exercises/03-Bootstrap-Grid",
+            "slug": "03-Bootstrap-Grid",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "html",
+            "entry": "exercises/03-Bootstrap-Grid/index.html",
+            "title": "03-Bootstrap-Grid",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/03-Bootstrap-Grid/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/03-Bootstrap-Grid/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/03-Bootstrap-Grid/index.html",
+                    "name": "index.html",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/03-Bootstrap-Grid/styles.css",
+                    "name": "styles.css",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/03-Bootstrap-Grid/tests.js",
+                    "name": "tests.js",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        },
+        {
+            "position": 4,
+            "path": "exercises/04-Navbar",
+            "slug": "04-Navbar",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "html",
+            "entry": "exercises/04-Navbar/index.html",
+            "title": "04-Navbar",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/04-Navbar/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/04-Navbar/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/04-Navbar/index.html",
+                    "name": "index.html",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/04-Navbar/styles.css",
+                    "name": "styles.css",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/04-Navbar/tests.js",
+                    "name": "tests.js",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        },
+        {
+            "position": 5,
+            "path": "exercises/05-Sidebar-With-Menu",
+            "slug": "05-Sidebar-With-Menu",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "html",
+            "entry": "exercises/05-Sidebar-With-Menu/index.html",
+            "title": "05-Sidebar-With-Menu",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/05-Sidebar-With-Menu/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/05-Sidebar-With-Menu/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/05-Sidebar-With-Menu/index.html",
+                    "name": "index.html",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/05-Sidebar-With-Menu/styles.css",
+                    "name": "styles.css",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/05-Sidebar-With-Menu/tests.js",
+                    "name": "tests.js",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        },
+        {
+            "position": 6,
+            "path": "exercises/06-Jumbotron-And-Three-Boxes",
+            "slug": "06-Jumbotron-And-Three-Boxes",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "html",
+            "entry": "exercises/06-Jumbotron-And-Three-Boxes/index.html",
+            "title": "06-Jumbotron-And-Three-Boxes",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/06-Jumbotron-And-Three-Boxes/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/06-Jumbotron-And-Three-Boxes/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/06-Jumbotron-And-Three-Boxes/index.html",
+                    "name": "index.html",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/06-Jumbotron-And-Three-Boxes/styles.css",
+                    "name": "styles.css",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/06-Jumbotron-And-Three-Boxes/tests.js",
+                    "name": "tests.js",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        },
+        {
+            "position": 7,
+            "path": "exercises/07-Buttons-Alert-And-Table",
+            "slug": "07-Buttons-Alert-And-Table",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "html",
+            "entry": "exercises/07-Buttons-Alert-And-Table/index.html",
+            "title": "07-Buttons-Alert-And-Table",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/07-Buttons-Alert-And-Table/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/07-Buttons-Alert-And-Table/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/07-Buttons-Alert-And-Table/index.html",
+                    "name": "index.html",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/07-Buttons-Alert-And-Table/styles.css",
+                    "name": "styles.css",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/07-Buttons-Alert-And-Table/tests.js",
+                    "name": "tests.js",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        },
+        {
+            "position": 8,
+            "path": "exercises/08-Bootstrap-Forms",
+            "slug": "08-Bootstrap-Forms",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "html",
+            "entry": "exercises/08-Bootstrap-Forms/index.html",
+            "title": "08-Bootstrap-Forms",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/08-Bootstrap-Forms/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/08-Bootstrap-Forms/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/08-Bootstrap-Forms/index.html",
+                    "name": "index.html",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/08-Bootstrap-Forms/styles.css",
+                    "name": "styles.css",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/08-Bootstrap-Forms/tests.js",
+                    "name": "tests.js",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        }
+    ]
+}

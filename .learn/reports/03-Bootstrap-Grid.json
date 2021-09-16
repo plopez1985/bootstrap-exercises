@@ -1,0 +1,41 @@
+{
+  "success": false,
+  "numFailedTestSuites": 1,
+  "numFailedTests": 3,
+  "numPassedTests": 4,
+  "testResults": [
+    {
+      "message": "\u001b[1m\u001b[31m  \u001b[1m● \u001b[1m1. All the rules in the instructions should be applied › The second row should contain 3 columns of the same width\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\n    Received: \u001b[31mfalse\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 60 |\u001b[39m         \u001b[90m// console.log(html.toString());\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 61 |\u001b[39m         \u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[2m\u001b[39m\u001b[90m 62 |\u001b[39m         expect(ndRow\u001b[33m.\u001b[39mtoString()\u001b[33m.\u001b[39mindexOf(\u001b[32m`<div class=\"col\">Third col</div>`\u001b[39m)\u001b[33m>\u001b[39m\u001b[33m-\u001b[39m\u001b[35m1\u001b[39m)\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m    |\u001b[39m                                                                                 \u001b[31m\u001b[1m^\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 63 |\u001b[39m         expect(ndRow\u001b[33m.\u001b[39mtoString()\u001b[33m.\u001b[39mindexOf(\u001b[32m`<div class=\"col\">Fourth col</div>`\u001b[39m)\u001b[33m>\u001b[39m\u001b[33m-\u001b[39m\u001b[35m1\u001b[39m)\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 64 |\u001b[39m         expect(ndRow\u001b[33m.\u001b[39mtoString()\u001b[33m.\u001b[39mindexOf(\u001b[32m`<div class=\"col\">Fifth col</div>`\u001b[39m)\u001b[33m>\u001b[39m\u001b[33m-\u001b[39m\u001b[35m1\u001b[39m)\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 65 |\u001b[39m         expect(ndRow\u001b[33m.\u001b[39mtoString()\u001b[33m.\u001b[39mindexOf(\u001b[32m`<div`\u001b[39m)\u001b[33m>\u001b[39m\u001b[33m-\u001b[39m\u001b[35m1\u001b[39m)\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.<anonymous> (\u001b[2m\u001b[0m\u001b[36mexercises/03-Bootstrap-Grid/tests.js\u001b[39m\u001b[0m\u001b[2m:62:81)\u001b[2m\u001b[22m\n\n\u001b[1m\u001b[31m  \u001b[1m● \u001b[1m1. All the rules in the instructions should be applied › You should create a third row with one column of 12 slot and the background red\u001b[39m\u001b[22m\n\n    TypeError: Cannot read property 'querySelector' of undefined\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 66 |\u001b[39m     })\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 67 |\u001b[39m     it(\u001b[32m'You should create a third row with one column of 12 slot and the background red'\u001b[39m\u001b[33m,\u001b[39m \u001b[36mfunction\u001b[39m () {\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[2m\u001b[39m\u001b[90m 68 |\u001b[39m         \u001b[36mlet\u001b[39m rdRow\u001b[33m=\u001b[39mdocument\u001b[33m.\u001b[39mquerySelectorAll(\u001b[32m\".row\"\u001b[39m)[\u001b[35m2\u001b[39m]\u001b[33m.\u001b[39mquerySelector(\u001b[32m\"div\"\u001b[39m)\u001b[33m.\u001b[39mclassList\u001b[33m.\u001b[39mvalues()\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m    |\u001b[39m                   \u001b[31m\u001b[1m^\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 69 |\u001b[39m         \u001b[90m// for (let i=0; i<rdRow.length; i++) {console.log(\"IT#:\", rdRow[i])}\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 70 |\u001b[39m         \u001b[36mlet\u001b[39m rdRowClasses\u001b[33m=\u001b[39m\u001b[36mfalse\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 71 |\u001b[39m         \u001b[36mlet\u001b[39m rdRowClassesBg\u001b[33m=\u001b[39m\u001b[36mfalse\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.<anonymous> (\u001b[2m\u001b[0m\u001b[36mexercises/03-Bootstrap-Grid/tests.js\u001b[39m\u001b[0m\u001b[2m:68:19)\u001b[2m\u001b[22m\n\n\u001b[1m\u001b[31m  \u001b[1m● \u001b[1m1. All the rules in the instructions should be applied › The main div tag should contain the class container-fluid\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\n    Received: \u001b[31mfalse\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 87 |\u001b[39m         \u001b[90m// console.log(html.toString());\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 88 |\u001b[39m         \u001b[36mconst\u001b[39m divTag\u001b[33m=\u001b[39mdocument\u001b[33m.\u001b[39mquerySelector(\u001b[32m\"body\"\u001b[39m)\u001b[33m.\u001b[39mquerySelector(\u001b[32m\"div\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[2m\u001b[39m\u001b[90m 89 |\u001b[39m         expect(divTag\u001b[33m.\u001b[39mclassList\u001b[33m.\u001b[39mcontains(\u001b[32m\"container-fluid\"\u001b[39m))\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m    |\u001b[39m                                                              \u001b[31m\u001b[1m^\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 90 |\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 91 |\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 92 |\u001b[39m     })\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.<anonymous> (\u001b[2m\u001b[0m\u001b[36mexercises/03-Bootstrap-Grid/tests.js\u001b[39m\u001b[0m\u001b[2m:89:62)\u001b[2m\u001b[22m\n"
+    }
+  ],
+  "failed": [
+    {
+      "title": "You should not change or delete the existing elements in the head tag",
+      "status": "passed"
+    },
+    {
+      "title": "The styles.css file should be empty",
+      "status": "passed"
+    },
+    {
+      "title": "Do not use any inline styles, just use the bootstrap classes for styling",
+      "status": "passed"
+    },
+    {
+      "title": "You should not change the first row",
+      "status": "passed"
+    },
+    {
+      "title": "The second row should contain 3 columns of the same width",
+      "status": "failed"
+    },
+    {
+      "title": "You should create a third row with one column of 12 slot and the background red",
+      "status": "failed"
+    },
+    {
+      "title": "The main div tag should contain the class container-fluid",
+      "status": "failed"
+    }
+  ]
+}
